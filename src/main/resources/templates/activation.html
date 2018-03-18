@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <meta name="description" content="OfferUp is revolutionizing how we sell by making it a snap! Instantly connect with buyers and sellers near you."/>
+    <meta name="keywords" content="OfferUp, Offer Up, social shopping, online deals, classifieds, Buy local stuff, Local stuff for sale, Shop local, Local shopping, Local marketplace, Local yard sales, Local garage sales, Gently used baby stuff, Sell locally, Buy locally, Sell stuff online"/>
+    <meta name="author" content=""/>
+    <title>Watching OfferUp | Activation</title>
+    <link rel="stylesheet" th:href="@{/bootstrap.css}"/>
+    <link rel="stylesheet" th:href="@{/style.css}"/>
+
+    <script type="text/javascript" th:src="@{/jquery.js}"></script>
+    <script type="text/javascript" th:src="@{/client.js}"></script>
+
+</head>
+<body class="activation">
+<header>
+    <div class="container">
+        <div id="branding">
+            <h1><span class="highlight">Watching OfferUp</span></h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/" onclick="goHomePage()">Home</a></li>
+                <li><a href="about.html" onclick="goAboutPage()">About</a></li>
+                <li><a href="howitworks.html" onclick="goHowItWorksPage()">How It Works</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section id="newsletter">
+    <div class="container">
+        <h1>Activation</h1>
+        <form>
+            <input type="email" placeholder="Enter Email"/>
+            <button type="submit" class="button_1">Get Email Alerts</button>
+        </form>
+    </div>
+</section>
+<section id="main">
+    <div class="container">
+        <article id="main-col">
+            <h1 class="page-title">About Us</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sem felis, aliquet sit amet placerat vitae, pretium eget nulla. Mauris a nisi varius risus varius efficitur eu sit amet nibh. Integer tincidunt purus quam, non aliquet nisi cursus a. Interdum et malesuada fames ac ante ipsum primis in faucibus. Quisque vel ante bibendum, vehicula nunc eget, pulvinar ex. Vestibulum iaculis mi lacus, eu pharetra massa maximus in. Donec ornare neque elit, sit amet pretium justo posuere at. Nunc pretium massa eros, nec vestibulum lacus fermentum ut. Nulla facilisi. Maecenas aliquet eros a volutpat pellentesque. Cras nunc lorem, molestie quis ornare non, tempor nec mauris. Nunc vitae erat quis enim eleifend sodales ut et est. Phasellus eleifend gravida lectus id maximus. Suspendisse fermentum ultrices risus consectetur consequat.
+            </p>
+            <p class="dark">
+                Duis ac aliquam urna, eu viverra nulla. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur ut porta mauris. Integer rutrum ligula turpis, a facilisis ligula sodales ut. Vivamus a ipsum augue. Aenean vehicula a erat ac pulvinar. In hac habitasse platea dictumst.
+            </p>
+        </article>
+        <aside id="sidebar">
+            <div class="dark">
+                <h3>What We Do</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sem felis, aliquet sit amet placerat vitae, pretium eget nulla. Mauris a nisi varius risus varius efficitur eu sit amet nibh.
+                </p>
+            </div>
+        </aside>
+    </div>
+</section>
+<footer>
+    <p>Watching OfferUp, Copyright &copy; 2018</p>
+</footer>
+</body>
+</html>
